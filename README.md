@@ -145,3 +145,34 @@ and receive:
                     │ Store Interaction │
                     │    in Hindsight   │
                     └───────────────────┘
+
+
+
+---
+
+# 🛠️ Tech Stack
+
+- **Python** — Core application logic
+- **Streamlit** — Web interface
+- **Hindsight** — Persistent AI memory
+- **Groq** — LLM inference
+- **GPT-OSS-120B** — AI response generation
+- **python-dotenv** — Environment variable management
+- **Git & GitHub** — Version control
+
+---
+
+# 📁 Project Structure
+
+```text
+RecallDesk/
+│
+├── app.py              # Streamlit web application
+├── agent.py            # AI customer support agent
+├── memory.py           # Hindsight memory integration
+├── test_agent.py       # Agent testing
+├── test_memory.py      # Memory testing
+├── requirements.txt    # Python dependencies
+├── run_app.bat         # Windows application launcher
+├── .gitignore          # Files excluded from Git
+└── README.md           # Project documentation
